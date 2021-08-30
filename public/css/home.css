@@ -1,0 +1,29 @@
+.bg-image {
+    background: url(/images/bgmain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 100vw;
+    height: 91vh;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5b9;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 580px) {
+    .center-text h1 {
+        font-size: 25px;
+    }
+    .center-text h2 {
+        font-size: 20px;
+    }
+}

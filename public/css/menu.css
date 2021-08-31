@@ -10,10 +10,4 @@
         height: 150px;
         object-fit: cover;
     }
-    .container {
-        align-items: center;
-    }
-    .row {
-        text-align: center;
-    }
 }

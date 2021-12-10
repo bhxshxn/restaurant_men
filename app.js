@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 7000;
 const path = require('path');
 const viewsPath = path.join(__dirname, './views');
 const mongoose = require('mongoose');

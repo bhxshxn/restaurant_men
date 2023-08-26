@@ -22,7 +22,7 @@ app.use(express.static('public'));
 app.use('/', require('./routes/index.js'));
 
 // mongo Connection
-const url = "mongodb+srv://bhxshxn:bhxshxn@9@cluster0.ixoza.mongodb.net/RestaurantretryWrites=true&w=majority"
+const url = "mongodb+srv://bhxshxn:bhxshxn9@cluster0.ixoza.mongodb.net/RestaurantretryWrites=true&w=majority"
 mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,

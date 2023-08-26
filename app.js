@@ -26,9 +26,6 @@ const url = "mongodb+srv://bhxshxn:bhxshxn9@cluster0.ixoza.mongodb.net/Restauran
 mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-
 })
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
